@@ -1,0 +1,41 @@
+.article--main{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+
+    padding-bottom: 40px;
+}
+
+.article--imagen{
+    width: 100%;
+    background-position: 0px;
+    background-position-y: 1px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+
+    margin-bottom: 50px;
+}
+
+.article--texto{
+    margin-bottom: 5px;
+}
+
+.article-user--container{
+    margin-top: 40px;
+}
+
+.share-icon--open.visible{
+    z-index: 2;
+    margin-top: 24px;
+
+}
+
+.social-media{
+    width: 200%;
+    height: 119px;
+    border-radius: 0;
+
+    top: -15px;
+    left: -365px;
+    z-index: 1;
+}
